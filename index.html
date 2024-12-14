@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Club Enrollment Form</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="../assets/logo.png" alt="Company Logo" class="logo">
+      <h1>GeoSpatial</h1>
+    </div>
+  </header>
+  
+  <main>
+    <div class="container">
+      <h2>Join Our Club Today</h2>
+      <form id="enrollmentForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required placeholder="Enter your name">
+
+        <label for="regNumber">Registration Number:</label>
+        <input type="text" id="regNumber" name="regNumber" required placeholder="Enter your registration number">
+
+        <label for="email">Email ID:</label>
+        <input type="email" id="email" name="email" required placeholder="Enter your email">
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number">
+
+        <label for="preference1">Preference 1:</label>
+        <select id="preference1" name="preference1" required>
+          <option value="" disabled selected>Select preference</option>
+          <option value="1">Option 1</option>
+          <option value="2">Option 2</option>
+          <option value="3">Option 3</option>
+        </select>
+
+        <label for="preference2">Preference 2:</label>
+        <select id="preference2" name="preference2" required>
+          <option value="" disabled selected>Select preference</option>
+          <option value="1">Option 1</option>
+          <option value="2">Option 2</option>
+          <option value="3">Option 3</option>
+        </select>
+
+        <button type="submit">Submit</button>
+      </form>
+      <div id="thankYouAnimation" class="hidden">
+        <p>Thank you for submitting the form! 😊</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 EasyCab. All rights reserved.</p>
+    <p>Connecting you to your journey, safely and efficiently.</p>
+  </footer>
+</body>
+</html>
