@@ -125,4 +125,16 @@
       font-size: 18px;
     }
   }
-  
+
+.notice {
+  font-size: 0.9rem;
+  color: #2e8b57;
+  font-weight: bold;
+  margin: 10px 0;
+  background: linear-gradient(90deg, #1e3c72, #2a5298);
+  padding: 10px;
+  border-left: 4px solid #2e8b57;
+  border-radius: 8px;
+  color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
